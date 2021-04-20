@@ -7,8 +7,8 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'fosenikt', // Usually your GitHub org/user name.
+  projectName: 'KappsFramework', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Kapps Rammeverk',
@@ -17,11 +17,16 @@ module.exports = {
         src: 'img/kapps_no.svg',
       },
       items: [
-        {
+        /* {
           type: 'doc',
           docId: 'intro',
           position: 'left',
           label: 'Rammeverket',
+        }, */
+        {
+          href: 'https://kapps.no',
+          label: 'Kapps.no',
+          position: 'right',
         },
         {
           href: 'https://github.com/fosenikt/kapps_rammeverk',
@@ -38,7 +43,7 @@ module.exports = {
           items: [
             {
               label: 'Rammeverket',
-              to: '/docs/intro',
+              to: '/docs',
             },
           ],
         },
@@ -73,6 +78,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+		  routeBasePath: '/', // <-- Added to make docs the main page
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
