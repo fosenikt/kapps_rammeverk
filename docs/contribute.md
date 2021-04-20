@@ -7,5 +7,6 @@ title: Bidra til rammeverket
 
 ## Endre en side
 
+Dette er en test...
 
 ## Ny side
