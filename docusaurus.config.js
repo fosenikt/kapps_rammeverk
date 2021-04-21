@@ -43,7 +43,7 @@ module.exports = {
           items: [
             {
               label: 'Rammeverket',
-              to: '/docs',
+              to: '/',
             },
           ],
         },
@@ -78,6 +78,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+		  //path: '/docs',
 		  routeBasePath: '/', // <-- Added to make docs the main page
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
