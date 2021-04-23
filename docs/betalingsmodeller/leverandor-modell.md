@@ -1,7 +1,10 @@
 ---
+sidebar_position: 2
 id: supplier
 title: Leverandørmodellen
 ---
+
+*Leverandørmodellen ble nevnt under OneTeamGov Meetup. Litt usikker på hvilken kategori man skal plassere den under, da den er litt overordnet og inkluderer måte leveranse- og betalingsmodell?*
 
 Anbud med kriterier om at leverandøren leverer tjenesten med MIT-lisens på Github.
 Leverandøren vil i ettertid kunne ta betalt for videreutvikling, installasjon, opplæring og det som hører med. Leverandøren kan ta løpende betalt for support, men ikke for selve koden.

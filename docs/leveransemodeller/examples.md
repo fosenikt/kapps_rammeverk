@@ -1,12 +1,8 @@
 ---
-id: saas
-title: SaaS
+sidebar_position: 4
+id: delivery_examples
+title: Eksempler
 ---
-
-## Hva er SaaS?
-SaaS står for Software-as-a-Service, som igjen betyr at noen leverer en tjeneste til deg som du betaler for.
-
-Eksempler på SaaS i dag er Office365, Netflix, Spotify, osv...
 
 
 ## Open-source modeller for SaaS?
@@ -23,4 +19,3 @@ Dersom dette blir for avansert eller du ikke har tid til å drifte selv, så kan
 [Home Assistant](https://www.home-assistant.io/) er en smarthus-plattofrm som per skrivende stund en av verdens største open source prosjekter.
 For å kunne ha fulltids ansatte til å jobbe med Home Assistant, startet de noe som heter NabuCasa. De tilbyr sky-tjenester som forenkler mye av oppsettet.
 Alt NabuCasa gjør er også open source, slik at du kan sette det opp selv. Men en del av det er ganske teknisk krevende, slik at man heller betaler en symbolsk sum, som i tillegg bidrar til vedlikehold av tjenesten.
-
